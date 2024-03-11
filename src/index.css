@@ -144,3 +144,11 @@ input, textarea{
 p{
   width: 800px;
 }
+
+@media(max-width: 500px){
+  header{
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+  }
+}
